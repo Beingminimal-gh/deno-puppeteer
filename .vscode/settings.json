@@ -1,0 +1,160 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.iconTheme": "vs-seti",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.autofetchPeriod": 30,
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "redhat.telemetry.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "githubPullRequests.pullBranch": "never",
+    "[json]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "files.associations": {
+        "*.yml": "yaml",
+        "*.tsx": "typescriptreact",
+        "*.jsx": "javascriptreact",
+        "*.md": "markdown"
+    },
+    "yaml.format.enable": true,
+    "githubPullRequests.queries": [],
+    "explorer.confirmPasteNative": false,
+    "remoteHub.commitDirectlyWarning": "auto",
+    "git.branchProtectionPrompt": "alwaysCommit",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "git.ignoreRebaseWarning": true,
+    "diffEditor.codeLens": true,
+    "githubIssues.queries": [
+        {
+            "label": "My Issues",
+            "query": "is:open assignee:${user} repo:${owner}/${repository}"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+        },
+        {
+            "label": "Recent Bugs",
+            "query": "state:open label:\"type: bug :lady_beetle:\" repo:${owner}/${repository} sort:updated-desc"
+        }
+    ],
+    "scm.providerCountBadge": "auto",
+    "scm.repositories.sortOrder": "name",
+    "scm.repositories.visible": 0,
+    "github.copilot.preferredAccount": "beingminimal",
+    "githubIssues.createIssueTriggers": [
+        "TODO",
+        "todo",
+        "BUG",
+        "FIXME",
+        "ISSUE",
+        "HACK"
+    ],
+    "workbench.sideBar.location": "left",
+    "explorer.excludeGitIgnore": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.defaultColorDecorators": true,
+    "editor.definitionLinkOpensInPeek": true,
+    "extensions.closeExtensionDetailsOnViewChange": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.enableVisualBell": true,
+    "terminal.integrated.stickyScroll.enabled": true,
+    "problems.showCurrentInStatus": true,
+    "chat.experimental.variables.editor": true,
+    "chat.experimental.variables.terminal": true,
+    "inlineChat.experimental.textButtons": true,
+    "continue.enableQuickActions": true,
+    "css.format.spaceAroundSelectorSeparator": true,
+    "css.lint.duplicateProperties": "warning",
+    "css.lint.float": "error",
+    "css.lint.idSelector": "warning",
+    "css.lint.important": "error",
+    "css.lint.universalSelector": "warning",
+    "less.format.spaceAroundSelectorSeparator": true,
+    "deno.codeLens.implementations": true,
+    "deno.codeLens.references": true,
+    "deno.codeLens.referencesAllFunctions": true,
+    "deno.codeLens.test": true,
+    "git.supportCancellation": true,
+    "githubPullRequests.remotes": [
+        "origin"
+    ],
+    "html.format.indentInnerHtml": true,
+    "markdown.extension.completion.enabled": true,
+    "markdown.extension.tableFormatter.normalizeIndentation": true,
+    "markdown.extension.toc.orderedList": true,
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
+    "javascript.experimental.updateImportsOnPaste": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "javascript.format.semicolons": "insert",
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "liveshare.allowGuestDebugControl": true,
+    "liveshare.allowGuestTaskControl": true,
+    "scm.experimental.showHistoryGraph": true,
+    "githubIssues.useBranchForIssues": "off",
+    "workbench.settings.useSplitJSON": true,
+    "task.allowAutomaticTasks": "on",
+    "githubPullRequests.upstreamRemote": "never",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "editor.fontSize": 12,
+    "window.zoomLevel": 0,
+    "editor.codeLensFontFamily": "monospace",
+    "editor.inlayHints.fontFamily": "monospace",
+    "scm.inputFontFamily": "monospace",
+    "terminal.integrated.fontFamily": "monospace",
+    "notebook.output.fontFamily": "monospace",
+    "editor.fontFamily": "monospace",
+    "editor.experimentalInlineEdit.fontFamily": "monospace",
+    "editor.inlineSuggest.fontFamily": "monospace",
+    "debug.console.fontFamily": "monospace",
+    "chat.editor.fontFamily": "monospace",
+    "errorLens.fontFamily": "monospace",
+    "markdown.preview.fontFamily": "monospace",
+    "terminal.integrated.fontSize": 12,
+    "chat.editor.fontSize": 12,
+    "errorLens.fontSize": "12",
+    "scm.inputFontSize": 12,
+    "debug.console.fontSize": 12,
+    "editor.codeLensFontSize": 12,
+    "editor.inlayHints.fontSize": 12,
+    "editor.suggestFontSize": 12,
+    "notebook.markup.fontSize": 14,
+    "notebook.output.fontSize": 14,
+    "notebook.formatOnCellExecution": true,
+    "notebook.formatOnSave.enabled": true,
+    "editor.insertSpaces": true
+}
