@@ -1,0 +1,19 @@
+{
+    "recommendations": [
+        "denoland.vscode-deno",
+        "Continue.continue",
+        "GraphQL.vscode-graphql",
+        "GraphQL.vscode-graphql-syntax",
+        "ms-vsliveshare.vsliveshare",
+        "GitHub.vscode-pull-request-github",
+        "github.vscode-github-actions",
+        "bierner.lit-html",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "foxundermoon.shell-format",
+        "redhat.vscode-yaml",
+        "DavidAnson.vscode-markdownlint",
+        "yzhang.markdown-all-in-one",
+        "figma.figma-vscode-extension"
+    ]
+}

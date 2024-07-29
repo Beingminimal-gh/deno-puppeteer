@@ -1,0 +1,69 @@
+[
+    {
+        "key": "shift+c",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+i",
+        "command": "openInIntegratedTerminal"
+    },
+    {
+        "key": "shift+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "shift+m",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "shift+l",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    },
+    {
+        "key": "shift+t shift+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "shift+t shift+c",
+        "command": "editor.action.transformToCamelcase"
+    },
+    {
+        "key": "shift+t shift+k",
+        "command": "editor.action.transformToKebabcase"
+    },
+    {
+        "key": "shift+t shift+l",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "shift+t shift+p",
+        "command": "editor.action.transformToPascalcase"
+    },
+    {
+        "key": "shift+t shift+s",
+        "command": "editor.action.transformToSnakecase"
+    },
+    {
+        "key": "shift+t shift+t",
+        "command": "editor.action.transformToTitlecase"
+    },
+    {
+        "key": "shift+d shift+r",
+        "args": "deno: run",
+        "command": "workbench.action.tasks.runTask"
+    },
+    {
+        "key": "shift+d shift+t",
+        "args": "deno: test",
+        "command": "workbench.action.tasks.runTask"
+    },
+    {
+        "key": "shift+ctrl+l",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "console.log('${TM_SELECTED_TEXT}$1')$2;"
+        }
+    }
+]

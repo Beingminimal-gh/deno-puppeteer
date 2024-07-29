@@ -1,0 +1,42 @@
+{
+    "New Issue Template": {
+        "prefix": "newissue",
+        "body": [
+            "TODO Issue: $1",
+            "",
+            "Assignees: $2",
+            "Labels: ",
+            "Milestone: ",
+            "Projects: compass",
+            "",
+            "> [!CAUTION]",
+            "> Embrace AI's 10x power, or watch the future built without you. :robot:",
+            "",
+            "## For",
+            "",
+            "1.",
+            "",
+            "## Goal",
+            "",
+            "1.",
+            "",
+            "## Success",
+            "",
+            "1.",
+            "",
+            "## Context",
+            "",
+            "1.",
+            "",
+            "If needed, feel free to add an alert using the format described in the [GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)",
+            "",
+            "> [!IMPORTANT]",
+            "> Let's keep innovating! Docs/Issues welcome for continuous improvement. :pushpin:",
+            "",
+            "```[tasklist]",
+            "### Tasks",
+            "```"
+        ],
+        "description": "Template for creating a New issue"
+    }
+}
